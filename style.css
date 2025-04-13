@@ -2,6 +2,7 @@ html {
     font-family: "Forum", serif;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 header {
@@ -40,13 +41,13 @@ header {
 
 }
 
-#links a {
+a {
     padding: 10px;
     text-decoration: none;
     color: black;
 }
 
-#links a:hover {
+a:hover {
     text-decoration: underline;
     color: gold;
 }
@@ -196,6 +197,13 @@ body {
     top: 450;
     left: 250;
     width: 35%;
+}
+
+#email {
+    position: relative;
+    top: 500; 
+    margin-left: 2rem;
+    padding: 1rem;
 }
 
 
