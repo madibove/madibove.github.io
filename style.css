@@ -209,7 +209,7 @@ body {
 /* about styles */
 
 #aboutImg {
-    width: 50%;
+    max-width: 620px;
     margin: 3rem;
     border-radius: 10px;
 }
@@ -243,11 +243,8 @@ body {
 }
 
 #contactFrame {
-    background-image: url('otherImages/frame.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 80vh;
-    width: 50vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
