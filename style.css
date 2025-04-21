@@ -31,7 +31,7 @@ header {
     font-size: 1rem;
 }
 
-#name {
+.largeFont {
     font-size: 1.75rem;
 }
 
@@ -206,9 +206,59 @@ body {
     padding: 1.5rem;
 }
 
+/* about styles */
 
+#aboutImg {
+    width: 50%;
+    margin: 3rem;
+    border-radius: 10px;
+}
 
-/* #imageContainer {
+#aboutBox {
+    display: flex;
+    flex-direction: row;
+}
+
+/* pricing styles */
+
+#pricingBox {
+    margin: 3rem;
+}
+
+#pricingBox li {
+    padding: .25rem;
+}
+
+.price {
+    font-style: italic;
+    padding-left:.5rem;
+}
+
+/* contact styles */
+
+#contactBox {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+#contactFrame {
+    background-image: url('otherImages/frame.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+#contactFrame div {
+    margin: 10rem 7rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#imageContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -232,4 +282,4 @@ body {
     font-weight: lighter;
     font-style: italic;
     margin-left: 10px;
-  } */
+  }
