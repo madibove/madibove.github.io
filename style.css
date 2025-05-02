@@ -58,8 +58,8 @@ a:hover {
 }
 
 .pink {
-    color: pink;
-    font-style: italic;
+    color: rgb(210, 157, 166);
+    /* font-style: italic; */
 }
 
 body {
